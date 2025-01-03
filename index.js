@@ -14,7 +14,7 @@ const server = new ApolloServer({
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@web-development-2.cglha.mongodb.net/socail-media-site?retryWrites=true&w=majority`
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@braidenscluster.3wlmf.mongodb.net/?retryWrites=true&w=majority&appName=braidensCluster`
   )
   .then(() => {
     console.log("connected to database");
